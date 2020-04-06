@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\images.png" />
+    <None Remove="images\unnamed.png" />
     <None Remove="images\user.png" />
   </ItemGroup>
 
@@ -16,6 +18,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\images.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\unnamed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\user.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
