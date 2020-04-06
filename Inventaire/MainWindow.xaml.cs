@@ -5,6 +5,8 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using BillingManagement.Business;
+using BillingManagement.Models;
 
 namespace Inventaire
 {
